@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube do Filme</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header><h1>Clube do Filme</h1></header>
+    <main>
+        <section>
+            <input type="text" placeholder="Nome do Filme ou Gênero" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        
+        <Section class="resultados-pesquisa" id="resultados-pesquisa">
+            <!-- <div class="item-resultado">
+                <h2>Nosso Lar</h2>
+                <p class="descricao-meta">
+                    <strong>Ano:</strong> 2010</strong><br>
+                    <strong>Gênero: </strong>Drama</strong><br>
+                    <strong>Sinopse: </strong>Baseado em livro de Chico Xavier, a jornada espiritual conta a história de um médico, André Luiz, que passa por um despertar depois de sua morte. André Luiz teria se comunicado com Chico Xavier, contando sua história de dor e sofrimento em uma espécie de purgatório.</p>
+                <a href="https://www.youtube.com/watch?v=4WQ_37dhpvY" target="_blank"> Onde Assistir</a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>A Máquina do Tempo</h2>
+                <p class="descricao-meta">
+                    <strong>Ano:</strong> 1960</strong><br>
+                    <strong>Gênero: </strong>Ficção Científica</strong><br>
+                    <strong>Sinopse: </strong>Um cientista constrói uma máquina do tempo e decide viajar para o futuro. Ele acaba descobrindo que a raça humana foi dividida de duas formas, os superfície são pessoas pacíficas e nos subterrâneos elas são deformadas e canibais.</p>
+                <a href="https://www.youtube.com/watch?v=7KmV92PSYTU" target="_blank"> Onde Assistir</a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>A Noite dos Mortos-Vivos</h2>
+                <p class="descricao-meta">
+                    <strong>Ano:</strong> 1968</strong><br>
+                    <strong>Gênero: </strong>Terro/Ficção Científica</strong><br>
+                    <strong>Sinopse: </strong>Um grupo pessoas se refugia em uma casa abandonada quando cadáveres voltam à vida e tentam devorar os vivos. O pragmático Ben faz o possível para controlar a situação, mas quando os zumbis cercam o local, os outros sobreviventes entram em pânico..</p>
+                <a href="https://www.youtube.com/watch?v=n1gNCpOKciI" target="_blank"> Onde Assistir</a>
+            </div>
+
+                <div class="item-resultado">
+                    <h2>O Gabinete do Dr. Caligari</h2>
+                    <p class="descricao-meta">
+                        <strong>Ano:</strong> 1920</strong><br>
+                        <strong>Gênero: </strong>Suspense/Terror</strong><br>
+                        <strong>Sinopse: </strong>Em um pequeno vilarejo da fronteira holandesa, um misterioso hipnotizador, Dr. Caligari, chega acompanhado do sonâmbulo Cesare que, supostamente, estaria adormecido por 23 anos. À noite, Cesare perambula pela cidade, concretizando as previsões funestas do seu mestre, o Dr. Caligari.</p>
+                    <a href="https://www.youtube.com/watch?v=TLx52ifymWE" target="_blank"> Onde Assistir</a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>Metropolis</h2>
+                <p class="descricao-meta">
+                    <strong>Ano:</strong> 1927</strong><br>
+                    <strong>Gênero: </strong>Ficção Científica</strong><br>
+                    <strong>Sinopse: </strong>Metrópolis, ano 2026. A cidade se divide rigidamente entre os poderosos no plano superior e os operários, em regime de escravidão, vivendo num local subterrâneo com suas famílias. Tudo é governado por Joh Fredersen, um insensível capitalista, cujo único filho, Freder, leva uma vida idílica, desfrutando de suas riquezas. Mas tudo muda quando o jovem conhece Maria, a líder espiritual dos operários, e se apaixona perdidamente.
+                </p>
+                <a href="https://www.youtube.com/watch?v=Oa1qWCdSKHo" target="_blank"> Onde Assistir</a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>Interestelar</h2>
+                <p class="descricao-meta">
+                    <strong>Ano:</strong> 2014<br>
+                    <strong>Gênero: </strong>Ficção Científica<br>
+                    <strong>Sinopse: </strong>As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.
+
+                </p>
+                <a href="https://www.primevideo.com/dp/amzn1.dv.gti.b4a9f7c6-5def-7e63-9aa7-df38a479333e?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">Onde Assistir</a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>Blade Runner</h2>
+                <p class="descricao-meta">
+                    <strong>Ano:</strong> 1982<br>
+                    <strong>Gênero: </strong>Ficção Científica<br>
+                    <strong>Sinopse: </strong>Em um futuro distópico, um caçador de androides é encarregado de "aposentar" replicantes que se rebelaram contra seus criadores.
+                </p>
+                <a href="https://www.primevideo.com/dp/amzn1.dv.gti.98a9f73a-f078-b2ed-17d1-91d6ab15b397?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">Onde Assistir</a>
+            </div> -->
+            
+        </Section>
+    </main>
+
+    <footer>
+        <p>2024 - Clube do Filme. Todos Direitos Reservados</p>
+        <p>Contato: clubdofilme@gmail.com.br</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
